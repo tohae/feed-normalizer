@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = %q{feed-normalizer}
   s.rubygems_version = %q{1.2.0}
   s.summary = %q{Extensible Ruby wrapper for Atom and RSS parsers}
-  s.test_files = ["test/test_all.rb"]
+  #s.test_files = ["test/test_all.rb"]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
