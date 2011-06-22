@@ -8,6 +8,8 @@ require 'simple-rss'
 #
 class SimpleRSS
   @@item_tags << :issued
+  @@item_tags << :'enclosure#url'
+  @@item_tags << :'ldnfeed:image_link'
 
   undef clean_content
   def clean_content(tag, attrs, content)
@@ -97,7 +99,7 @@ module FeedNormalizer
         :authors => [:author, :contributor, :dc_creator],
         :categories => :category,
         :last_updated => [:updated, :dc_date, :pubDate],
-        :media_content_url => :media_content_url, 
+        :media_content_url => [:media_content_url, :enclosure_url, :ldnfeed_image_link],
         :media_content_type => :media_content_type,
         :media_content_height => :media_content_height, 
         :media_content_width => :media_content_width,
