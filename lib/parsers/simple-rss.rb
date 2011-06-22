@@ -96,7 +96,6 @@ module FeedNormalizer
         :title => :title,
         :authors => [:author, :contributor, :dc_creator],
         :categories => :category,
-        :last_updated => [:updated, :dc_date, :pubDate]
         :last_updated => [:updated, :dc_date, :pubDate],
         :media_content_url => :media_content_url, 
         :media_content_type => :media_content_type,
