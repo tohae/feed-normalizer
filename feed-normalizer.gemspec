@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.description = %q{An extensible Ruby wrapper for Atom and RSS parsers. Feed normalizer wraps various RSS and Atom parsers, and returns a single unified object graph, regardless of the underlying feed format.}
   s.email = %q{andy@tinnedfruit.org}
   s.extra_rdoc_files = ["History.txt", "License.txt", "Manifest.txt", "README.txt"]
-  s.files = ["History.txt", "License.txt", "Manifest.txt", "Rakefile", "README.txt", "lib/feed-normalizer.rb", "lib/html-cleaner.rb", "lib/parsers/rss.rb", "lib/parsers/simple-rss.rb", "lib/structures.rb", "test/data/atom03.xml", "test/data/atom10.xml", "test/data/rdf10.xml", "test/data/rss20.xml", "test/data/rss20diff.xml", "test/data/rss20diff_short.xml", "test/test_all.rb", "test/test_feednormalizer.rb", "test/test_htmlcleaner.rb"]
+  s.files = ["History.txt", "License.txt", "Manifest.txt", "Rakefile", "README.txt", "lib/feed-normalizer.rb", "lib/html-cleaner.rb", "lib/parsers/rss.rb", "lib/parsers/simple-rss.rb", "lib/structures.rb", "test/data/atom03.xml", "test/data/atom10.xml", "test/data/rdf10.xml", "test/data/rss20.xml", "test/data/rss20diff.xml", "test/data/rss20diff_short.xml", "test/test_feednormalizer.rb", "test/test_htmlcleaner.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://feed-normalizer.rubyforge.org/}
   s.rdoc_options = ["--main", "README.txt"]
