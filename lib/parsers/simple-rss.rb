@@ -91,7 +91,7 @@ module FeedNormalizer
       # entry elements
       entry_mapping = {
         :date_published => [:pubDate, :published, :dc_date, :issued],
-        :urls => :link,
+        :urls => [:link,:guid],
         :enclosures => :enclosure,
         :description => [:description, :summary],
         :content => [:content, :content_encoded, :description],
